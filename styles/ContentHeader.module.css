@@ -1,0 +1,12 @@
+.contentHeader{
+    background-color: rgba(250, 28, 28, 0.954) ;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    font-family: "PokemonHollow";
+    font-weight: bold;
+
+}

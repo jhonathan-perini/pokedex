@@ -1,0 +1,96 @@
+.pokemonCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    list-style: none;
+    margin: 1rem;
+  flex-direction: row;
+  align-items: center;
+
+    background-image:linear-gradient(to bottom right,rgba(212, 212, 212, 0.228) 49.5%,white 50%);
+    background-size: 200% 200%;
+    background-position:bottom right;
+    word-break: break-all;
+
+
+  }
+
+ 
+
+.card:hover {
+    background-position: top left;
+    transform: scale(1.1);
+    transition: 0.4s;
+  
+}
+.sprite  {
+ grid-row: 1 /span 3;
+ 
+
+}
+.card li {
+ grid-row: 1;
+ grid-column: 2;
+
+ text-align:end;
+ font-size: 1.2em;
+grid-row: 1 / span 2;
+align-self: flex-start;
+
+}
+.card div {
+ grid-row: 3;
+ grid-column: 2;
+ justify-content: end;
+
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.mainContainer  nav{
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+
+
+}
+.mainContainer > nav > button {
+   color:rgba(250, 28, 28, 0.954);
+   font-family : "PokemonSolid" ;
+   background-color: white;
+   padding: 0.5rem 2rem;
+   border: solid rgba(0, 0, 0, 0.191);
+   font-size: 1.4rem;
+   border-radius: 2rem;
+    cursor: pointer;
+ 
+    margin: 0 0.5rem;
+
+    border-width: 0px 1px 1px 0px;
+    box-shadow: 0px 0px 5px 1px rgba(182, 182, 182, 0.197);
+}
+.mainContainer > nav > button:hover {
+   color:white;
+
+   background-color: rgba(250, 28, 28, 0.954);
+transition: 0.5s;
+
+}
